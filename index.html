@@ -18,13 +18,17 @@ Have fun creating your portfolio on this template!!! -->
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
 
     <!-- Title: add your Portfolio websites's title here -->
-    <title>Hong Sng | Software Engineer</title>
+    <title>Hong Sng | Junior Code Monkey who likes building BIG systems</title>
 
     <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
+    <meta name="keywords" content="Languages: Python, Go, Java, C, C++, C#, Rust, Scala, SML, SQL, Ruby, JS, HTML, CSS, Bash
+    •	Tools: Azure, AWS, Google Cloud, Kubernetes, Docker, Linux, Apache Spark, Kafka, Samza, MongoDB, MapReduce, Databricks, Hadoop
+    •	Libraries: PyTorch, TensorFlow, GPT, Hugging Face, OpenCV, NLTK, Django, Rails, React, ROS2, NumPy, Pandas
+    •	Natural Languages: English, Chinese, Japanese, Korean, Indonesian, Malay, Roles: Software Engineer, Quant Developer, Quantative Researcher, Cloud Engineer, Infrastructure and Systems Engineer
+    "/>
 
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <!-- Improve your SEO by adding a small description of you -->
+    <meta name="description" content="Hong Sng | Software Engineer at Citadel, LinkedIn, Novocall and Novena. Computer Science and Logic double major at Carnegie Mellon University. Game Development, Machine Learning, Natural Language Processing, Cloud Infrastructure, Distributed Systems." />
 
     <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
     <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
@@ -83,39 +87,23 @@ Have fun creating your portfolio on this template!!! -->
       src="./javascript/scrollveal.js"
     ></script>
 
-    <!-- Remove Google Analytics once you have your portfolio website set-up -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || []
-      function gtag() {
-        dataLayer.push(arguments)
-      }
-      gtag("js", new Date())
-
-      gtag("config", "UA-122228201-4")
-    </script>
-    <!-- End of Google Analytics -->
   </head>
   <body>
     <!-- Hero Section -->
     <div id="hero">
       <section class="container">
         <h1 class="hero-title">
-          Hi, my name is <span class="text-color-main name">Hong</span>
+          Greetings! My name is <span class="text-color-main name">Hong</span>
           <br />
-          I'm a Junior Code Monkey.
+          ...and I'm a Junior Code Monkey.
         </h1>
         <p class="hero-cta">
           <a class="cta-btn cta-btn--hero" href="#about">I'm curious~</a>
         </p>
       </section>
-      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+      <!-- <a href="#about" class="scroll-down-link" aria-label="scroll-down">
         <div class="scroll-down"></div
-      ></a>
+      ></a> -->
     </div>
     <!-- /END Hero Section -->
 
@@ -135,16 +123,14 @@ Have fun creating your portfolio on this template!!! -->
           </div>
           <div class="about-wrapper__info">
             <p class="about-wrapper__info-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus quae repellat, ad omnis distinctio velit saepe expedita
-              architecto cumque veritatis adipisci. Sapiente non, saepe hic
-              adipisci doloribus quisquam recusandae et.
+              Hello Friend. My name is Hong Sng. 
+              I'm a Computer Science and Logic double major at Carnegie Mellon University - until December 2024.
+              I am interested in building scalable and reliable distributed software systems and infrastructure (read: COOL BIG STUFF).
             </p>
             <p class="about-wrapper__info-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-              obcaecati doloribus qui praesentium quae veniam esse mollitia
-              consequuntur nisi minima quasi et fugit quidem enim recusandae
-              delectus, iusto culpa rerum?
+              I'm grateful to have worked with Citadel (Graph Data), LinkedIn (Graph Infra), Novocall (Web APIs) and Novena (UI/UX).
+              My other life includes game development in Unity and Computational Historical Linguistics Research with CMU's NLP-focused L-LAB. 
+              My real, non-code-monkey life is all about Cooking, Soccer, Reading and Teaching :D
             </p>
             <span class="about-wrapper__cta">
               <a href="#" class="cta-btn cta-btn--resume">View Resume</a>
@@ -159,28 +145,273 @@ Have fun creating your portfolio on this template!!! -->
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
+          <h2 class="section-title dark-blue-text">Experience & Projects</h2>
 
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">Graph Data Engineering Intern @ Citadel</h3>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                Still compiling...
+              </p>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Backend Systems & Infrastructure Intern @ LinkedIn</h3>
+              <p class="project-wrapper__text-info">
+                From May - August 2023, I developed a graph query proxy in Go with 30% latency, 10x throughput boost at 2K QPS.
+                Implemented autoscaling with Kubernetes, caching with Redis, failure-resiliency with CosmosDB.
+                Worked for the Azure Graph team so everything was on the Azure stack of course :>.
+                Our team's product is coming out in a few years as Microsoft Fabric - stay tuned!
+              </p>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Web Developer Intern @ Novocall</h3>
+              <p class="project-wrapper__text-info">
+                From May - August 2021, I worked on a startup's messaging API with Ruby on Rails, PostgreSQL and built their UI with React.
+              </p>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Front-End / UI / UX @ Novocall</h3>
+              <p class="project-wrapper__text-info">
+                From November 2020 - April 2021, I worked on Novena's E-Commerce platform, improving page load times by 20% by building a server-rendered mobile-optimized web UI. 
+              </p>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">CS Teaching Assistant @ CMU</h3>
+              <p class="project-wrapper__text-info">
+                From December 2021 to Until I Graduate, I've been working as a teaching assistant in Carnegie Mellon University's School of Computer Science.
+                Highlights: networking and system design for 15-440: Distributed Systems and mentoring term projects for students in 15-112: Fundamentals of Programming.
+                Fun stuff: as Events Lead for 15-112, I helped organize a PuzzleHunt and a Hackathon -- with a REAL PYTHON (plushie) as a prize!
+              </p>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">NLP Research Assistant @ CMU L-LLAB</h3>
+              <p class="project-wrapper__text-info">
+                From December 2023 to Until I Graduate, I've been working as a research assistant for CMU's Computational Historical Linguistics L-LAB. 
+                It's actually really cool. I made lots of synthetic languages and we trained our LLM for sound law induction and language ancestry detection. 
+              </p>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Multimodal Webtoon Generator</h3>
+              <p class="project-wrapper__text-info">
+                From December 2023 to Whenever I Have Time, I've been working on creating an infinite-scroll real-time multimodal webtoon generator. 
+                It generates text, images and sound as you scroll along~
+              </p>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project --><!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Autonomous Hydroponics Greenhouse System</h3>
+              <p class="project-wrapper__text-info">
+                From Aug - Dec 2023, my team worked on a Raspberry Pi hardware, ROS2 interface and autonomous agent software to monitor and grow ~50 lettuce and radishes. We ate them. 
+              </p>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Sign Language to Speech Translator</h3>
+              <p class="project-wrapper__text-info">
+                From Nov 2021 to Jan 2022, my team trained TensorFlow's deep learning model for webcam ASL to English translation. Fun fact: I learnt ASL previously.
+              </p>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Litter Detection Heatmap</h3>
+              <p class="project-wrapper__text-info">
+                From Oct - Dec 2021, my team fine-tuned Detectron2's region-based convolutional neural network model for litter (86% acc) and analyzed bus camera footage to visualize Pittsburgh's litter density on a heatmap (Google Maps)
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">3D Space Shooter - Homebound</h3>
+              <p class="project-wrapper__text-info">
+                Super cool 3D Intergalactic Space Shooter. Built with Unity 3D and C# Scripting. Try it.
               </p>
               <div class="project-wrapper__text-btns">
                 <a
-                  href="#"
+                  href="https://red-bean.itch.io/homebound"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="cta-btn cta-btn--hero cta-btn--projects"
                   >See Live</a
-                >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
                 >
               </div>
             </div>
@@ -204,63 +435,19 @@ Have fun creating your portfolio on this template!!! -->
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">2D Arcade Game - Project Sushi</h3>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                In Project Sushi, you control a tiny human with a large craving for salmon sushi! Help him navigate various perils including the conveyor belt, onerous onigiri, monstrous maki, and even chopsticks from above whose owners think that he's a food item as well!
+
+Light-hearted arcade game built with Unity 2D and C# scripting.
               </p>
               <div class="project-wrapper__text-btns">
                 <a
-                  href="#"
+                  href="https://red-bean.itch.io/project-sushi"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="cta-btn cta-btn--hero cta-btn--projects"
                   >See Live</a
-                >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
-                >
-              </div>
-            </div>
-
-            <div class="project-wrapper__image">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <div class="thumbnail rounded">
-                  <img
-                    src="./assets/project.png"
-                    class="img-fluid"
-                    alt="Project Image"
-                    width="1366"
-                    height="767"
-                  />
-                </div>
-              </a>
-            </div>
-          </article>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
-              <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
-              </p>
-              <div class="project-wrapper__text-btns">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
                 >
               </div>
             </div>
@@ -290,8 +477,8 @@ Have fun creating your portfolio on this template!!! -->
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
-          <a href="#" class="cta-btn cta-btn--resume">Call to Action</a>
+          <p class="contact-wrapper__text">this Code Monkey doesn't bite~</p>
+          <a href="mailto:sng_hong@outlook.com" class="cta-btn cta-btn--resume">Get in touch!</a>
         </div>
       </div>
     </section>
@@ -305,31 +492,7 @@ Have fun creating your portfolio on this template!!! -->
         </a>
         <div class="social-links">
           <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="twitter"
-          >
-            <i class="fa-brands fa-twitter"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="instagram"
-          >
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="codepen"
-          >
-            <i class="fa-brands fa-codepen"></i>
-          </a>
-          <a
-            href="#!"
+            href="https://www.linkedin.com/in/sng-hong/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="linkedin"
@@ -337,7 +500,7 @@ Have fun creating your portfolio on this template!!! -->
             <i class="fa-brands fa-linkedin"></i>
           </a>
           <a
-            href="#!"
+            href="https://github.com/snghong"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="github"
@@ -347,7 +510,7 @@ Have fun creating your portfolio on this template!!! -->
         </div>
         <hr />
         <p class="footer__text">
-          &copy; <span id="year"></span> - Template by
+          &copy; <span id="year"></span> - Built from a Template by
           <a
             href="https://github.com/AnilSeervi"
             target="_blank"
