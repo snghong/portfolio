@@ -1,8 +1,8 @@
 /* Cycle Titles */
 var titles = [
-"Code Monkey.",
-"Book Worm.",
-"Fullmetal (wok) Alchemist.",
+"Code Monkey",
+"Book Worm",
+"Fullmetal (wok) Alchemist",
     ];
 
 var index = 0;
