@@ -7,8 +7,8 @@ var titles = [
 
 var index = 0;
 var quoteTimer = function(){
-    index = index + 1 % titles.length;
-    $('.container').find('.hero-title').find('.title').fadeIn().text(quotes[index]);
+    index = (index + 1) % titles.length;
+    $('.container').find('.hero-title').find('.title').fadeIn().text(titles[index]);
 }
 
 
