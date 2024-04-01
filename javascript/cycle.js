@@ -4,6 +4,7 @@ var titles = [
 "Book Worm",
 "Fullmetal (wok) Alchemist",
     ];
+var timeout = 2000;
 
 var index = 0;
 var quoteTimer = function(){
@@ -13,5 +14,5 @@ var quoteTimer = function(){
 
 
 $(document).ready(function(){
-    setInterval(quoteTimer, 600);
+    setInterval(quoteTimer, timeout);
 });
