@@ -29,6 +29,24 @@ ScrollReveal().reveal(".scroll-down-link", {
   origin: "top",
 });
 
+/* Cycle Titles */
+var titles = [
+  "Code Monkey.",
+  "Book Worm.",
+  "Fullmetal (wok) Alchemist.",
+   ];
+  
+var index = 0;
+var quoteTimer = function(){
+    index = index + 1 % titles.length;
+    $('.container').find('.hero-title').find('.title').fadeIn().text(quotes[index]);
+}
+  
+  
+$(document).ready(function(){
+    setInterval(quoteTimer, 600);
+});
+
 /* About Section */
 ScrollReveal().reveal(".section-title", {
   ...defaultProps,
@@ -73,3 +91,4 @@ ScrollReveal().reveal(".fa", {
   delay: 500,
   interval: 100,
 });
+
