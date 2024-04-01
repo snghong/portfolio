@@ -4,7 +4,7 @@ var titles = [
 "Book Worm",
 "Fullmetal (wok) Alchemist",
     ];
-var timeout = 2000;
+var timeout = 1600;
 
 var index = 0;
 var quoteTimer = function(){
